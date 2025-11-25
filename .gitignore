@@ -52,3 +52,60 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+
+
+# Visual Studio / VS Code
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.vs/
+
+# Build outputs
+bin/
+obj/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+*.nuget.props
+*.nuget.targets
+
+# Rider
+.idea/
+
+# JetBrains
+*.iml
+out/
+
+# Coverage files
+coverage/
+*.coverage
+*.coveragexml
+
+# Others
+*.pdb
+*.mdb
+*.class
+
+# Publish/output folders (in case you publish to a separate folder)
+Publish/
+Release/
+Debug/
+
+# Publish/output folders (in case you publish to a separate folder)
+**/Publish/
+**/Release/
+**/Debug/
+
+
+**/obj/
