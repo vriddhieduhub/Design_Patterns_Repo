@@ -1,0 +1,13 @@
+##################### Creating a new Project  
+
+cd Creational_Design_Pattern          
+then
+dotnet new console -n Singleton_DesignPattern
+
+
+
+####################### To Add the solution  
+
+cd..  
+then   
+dotnet sln add Creational_Design_Pattern/Singleton_DesignPattern/Singleton_DesignPattern.csproj
