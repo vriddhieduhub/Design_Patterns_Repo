@@ -6,4 +6,13 @@
     <Project Path="Creational_Design_Pattern/Prototype_DesignPattern/Prototype_DesignPattern.csproj" />
     <Project Path="Creational_Design_Pattern/Singleton_DesignPattern/Singleton_DesignPattern.csproj" />
   </Folder>
+  <Folder Name="/Structural_Design_Pattern/">
+    <Project Path="Structural_Design_Pattern/Adapter_DesignPattern/Adapter_DesignPattern.csproj" />
+    <Project Path="Structural_Design_Pattern/Bridge_DesignPattern/Bridge_DesignPattern.csproj" />
+    <Project Path="Structural_Design_Pattern/Composite_DesignPattern/Composite_DesignPattern.csproj" />
+    <Project Path="Structural_Design_Pattern/Decorator_DesignPattern/Decorator_DesignPattern.csproj" />
+    <Project Path="Structural_Design_Pattern/Facade_DesignPattern/Facade_DesignPattern.csproj" />
+    <Project Path="Structural_Design_Pattern/Flyweight_DesignPattern/Flyweight_DesignPattern.csproj" />
+    <Project Path="Structural_Design_Pattern/Proxy_DesignPattern/Proxy_DesignPattern.csproj" />
+  </Folder>
 </Solution>
