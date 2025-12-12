@@ -1,0 +1,12 @@
+
+// 4. ConcreteDecorators
+public class EmailNotifier : NotifierDecorator
+{
+    public EmailNotifier(INotifier notifier) : base(notifier) { }
+
+    public override void Send(string message)
+    {
+        base.Send(message);
+        Console.WriteLine($"Sending email notification: {message}");
+    }
+}
