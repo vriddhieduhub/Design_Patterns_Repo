@@ -6,7 +6,13 @@ namespace Factory_DesignPattern
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello from Factory_DesignPattern!");
+            INotification notify1 = NotificationFactory.Create("email");
+            notify1.Send("Hello via Email!");
+
+            INotification notify2 = NotificationFactory.Create("sms");
+            notify2.Send("Hello via SMS!");
+             Console.WriteLine("-------------END of Factory_DesignPattern! -----------");
+
         }
     }
 }

@@ -11,3 +11,18 @@ dotnet new console -n Singleton_DesignPattern
 cd..  
 then   
 dotnet sln add Creational_Design_Pattern/Singleton_DesignPattern/Singleton_DesignPattern.csproj
+
+
+####################################################
+
+To run the project
+
+dotnet run --project Creational_Design_Pattern/Singleton_DesignPattern/Singleton_DesignPattern.csproj
+
+###################################################
+
+To install package syntax example
+dotnet add Creational_Design_Pattern/Singleton_DesignPattern/Singleton_DesignPattern.csproj package Microsoft.Extensions.DependencyInjection
+dotnet add Creational_Design_Pattern/Factory_DesignPattern/Factory_DesignPattern.csproj package Microsoft.Extensions.DependencyInjection
+dotnet add Creational_Design_Pattern/Builder_DesignPattern/Builder_DesignPattern.csproj package Microsoft.Extensions.DependencyInjection
+...

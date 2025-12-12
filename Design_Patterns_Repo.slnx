@@ -1,6 +1,9 @@
 <Solution>
   <Folder Name="/Creational_Design_Pattern/">
+    <Project Path="Creational_Design_Pattern/AbstractFactory_DesignPattern/AbstractFactory_DesignPattern.csproj" />
+    <Project Path="Creational_Design_Pattern/Builder_DesignPattern/Builder_DesignPattern.csproj" />
     <Project Path="Creational_Design_Pattern/Factory_DesignPattern/Factory_DesignPattern.csproj" />
+    <Project Path="Creational_Design_Pattern/Prototype_DesignPattern/Prototype_DesignPattern.csproj" />
     <Project Path="Creational_Design_Pattern/Singleton_DesignPattern/Singleton_DesignPattern.csproj" />
   </Folder>
 </Solution>
