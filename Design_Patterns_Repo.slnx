@@ -1,4 +1,15 @@
 <Solution>
+  <Folder Name="/Behavioral_Design_Pattern/">
+    <Project Path="Behavioral_Design_Pattern/ChainOfResponsibility_DesignPattern/ChainOfResponsibility_DesignPattern.csproj" />
+    <Project Path="Behavioral_Design_Pattern/Command_DesignPattern/Command_DesignPattern.csproj" />
+    <Project Path="Behavioral_Design_Pattern/Mediator_DesignPattern/Mediator_DesignPattern.csproj" />
+    <Project Path="Behavioral_Design_Pattern/Memento_DesignPattern/Memento_DesignPattern.csproj" />
+    <Project Path="Behavioral_Design_Pattern/Observer_DesignPattern/Observer_DesignPattern.csproj" />
+    <Project Path="Behavioral_Design_Pattern/State_DesignPattern/State_DesignPattern.csproj" />
+    <Project Path="Behavioral_Design_Pattern/Strategy_DesignPattern/Strategy_DesignPattern.csproj" />
+    <Project Path="Behavioral_Design_Pattern/Template_DesignPattern/Template_DesignPattern.csproj" />
+    <Project Path="Behavioral_Design_Pattern/Visitor_DesignPattern/Visitor_DesignPattern.csproj" />
+  </Folder>
   <Folder Name="/Creational_Design_Pattern/">
     <Project Path="Creational_Design_Pattern/AbstractFactory_DesignPattern/AbstractFactory_DesignPattern.csproj" />
     <Project Path="Creational_Design_Pattern/Builder_DesignPattern/Builder_DesignPattern.csproj" />

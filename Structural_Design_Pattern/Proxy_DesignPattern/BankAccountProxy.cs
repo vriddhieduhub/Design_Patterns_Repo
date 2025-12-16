@@ -23,8 +23,8 @@ public class BankAccountProxy : IBankAccount
     public void Withdraw(double amount)
     {
         Console.Write("Enter password to withdraw: ");
-        string input = Console.ReadLine();
-        if (Authenticate(input))
+        string? input = Console.ReadLine();
+        if (Authenticate(input!))
         {
             _realAccount.Withdraw(amount);
         }

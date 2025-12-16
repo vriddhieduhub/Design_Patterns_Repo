@@ -9,10 +9,10 @@ namespace Proxy_DesignPattern
         {
             IBankAccount account = new BankAccountProxy("mypassword");
 
-        account.Deposit(1000);
-        account.Withdraw(200); // asks for password
-        account.Withdraw(100); // asks for password
-        Console.WriteLine($"Final Balance: ${account.GetBalance()}");
+            account.Deposit(1000);
+            account.Withdraw(200); // asks for password
+            account.Withdraw(100); // asks for password
+            Console.WriteLine($"Final Balance: ${account.GetBalance()}");
 
             Console.WriteLine("---------End of Proxy_DesignPattern!---------");
         }
@@ -43,4 +43,24 @@ Subject (interface): Defines common operations.
 RealSubject: The real object that does the work.
 Proxy: Controls access to RealSubject, may add extra behavior.
 Client: Interacts with Proxy instead of RealSubject.
+
+
+
+
+
+
+✅ Why this is practical
+
+The real account (BankAccount) does the actual deposit/withdraw logic.
+
+The proxy (BankAccountProxy) controls access and security, without modifying the original class.
+
+Client interacts only with the proxy, unaware of the authentication logic.
+
+This pattern is widely used for:
+
+Access control
+Lazy initialization
+Logging or auditing
+Remote object access
 */
