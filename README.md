@@ -1,20 +1,20 @@
-🎯 Design Patterns in C# (.NET Console Applications)
+# Design Patterns in C# (.NET Console Applications)
 
-This repository contains complete, practical, and easy-to-understand implementations of all major Design Patterns using C# and .NET Console Applications.
+This repository contains practical and easy-to-understand implementations of all major Design Patterns using C# and .NET Console Applications.
 
-The goal of this project is to:
+The purpose of this project is to provide:
+- A clear understanding of GoF Design Patterns
+- Real-world inspired examples
+- Interview-ready reference implementations
+- A structured way to learn, revise, and practice design patterns
 
-Learn Design Patterns with real examples
+Each design pattern is implemented as an independent console project.
 
-Understand when & why to use each pattern
+---
 
-Provide interview-ready and production-style code
+## Solution Structure
 
-Serve as a reference repository for developers
-
-📌 Solution Overview
-
-The solution is organized into three main categories as per the GoF (Gang of Four) classification:
+The solution follows the Gang of Four (GoF) classification and is divided into three main categories:
 
 Design_Patterns_Repo
 │
@@ -27,175 +27,103 @@ Design_Patterns_Repo
 ├── LICENSE
 └── instruction.txt
 
+---
 
-Each design pattern is implemented as a separate .NET Console project, making it easy to:
+## Behavioral Design Patterns
 
-Run
+Behavioral patterns focus on communication, interaction, and responsibility between objects.
 
-Debug
+Patterns included:
+- Chain of Responsibility
+- Command
+- Iterator
+- Mediator
+- Memento
+- Observer
+- State
+- Strategy
+- Template Method
+- Visitor
 
-Understand independently
+---
 
-🧠 Behavioral Design Patterns
+## Creational Design Patterns
 
-These patterns focus on communication and responsibility between objects.
+Creational patterns deal with object creation mechanisms, improving flexibility and reuse.
 
-Behavioral_Design_Pattern
-│
-├── ChainOfResponsibility_DesignPattern
-├── Command_DesignPattern
-├── Iterator_DesignPattern
-├── Mediator_DesignPattern
-├── Memento_DesignPattern
-├── Observer_DesignPattern
-├── State_DesignPattern
-├── Strategy_DesignPattern
-├── Template_DesignPattern
-└── Visitor_DesignPattern
+Patterns included:
+- Singleton
+- Factory Method
+- Abstract Factory
+- Builder
+- Prototype
 
-Covered Patterns
+---
 
-Chain of Responsibility
+## Structural Design Patterns
 
-Command
+Structural patterns focus on object composition and class structure.
 
-Iterator
+Patterns included:
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Proxy
 
-Mediator
+---
 
-Memento
+## How to Run Any Project
 
-Observer
+Using Command Line / VS Code:
 
-State
-
-Strategy
-
-Template Method
-
-Visitor
-
-🏗️ Creational Design Patterns
-
-These patterns deal with object creation mechanisms.
-
-Creational_Design_Pattern
-│
-├── AbstractFactory_DesignPattern
-├── Builder_DesignPattern
-├── Factory_DesignPattern
-├── Prototype_DesignPattern
-└── Singleton_DesignPattern
-
-Covered Patterns
-
-Singleton
-
-Factory Method
-
-Abstract Factory
-
-Builder
-
-Prototype
-
-🧩 Structural Design Patterns
-
-These patterns focus on object composition and structure.
-
-Structural_Design_Pattern
-│
-├── Adapter_DesignPattern
-├── Bridge_DesignPattern
-├── Composite_DesignPattern
-├── Decorator_DesignPattern
-├── Facade_DesignPattern
-├── Flyweight_DesignPattern
-└── Proxy_DesignPattern
-
-Covered Patterns
-
-Adapter
-
-Bridge
-
-Composite
-
-Decorator
-
-Facade
-
-Flyweight
-
-Proxy
-
-▶️ How to Run Any Design Pattern Project
-Option 1: Using Visual Studio Code
 cd Behavioral_Design_Pattern/Strategy_DesignPattern
 dotnet run
 
-Option 2: Using Visual Studio
+Using Visual Studio:
+1. Open Design_Patterns_Repo.sln
+2. Set the required project as Startup Project
+3. Run the application (F5)
 
-Open Design_Patterns_Repo.sln
+---
 
-Set the required project as Startup Project
+## Project Design Approach
 
-Press Run (F5)
+- Each design pattern is implemented as one independent project
+- Code is kept simple and readable
+- Examples focus on understanding the pattern, not frameworks
+- Console output is used to explain behavior clearly
 
-🧪 Project Structure (Inside Each Pattern)
+---
 
-Each project generally contains:
+## Who This Repository Is For
 
-Program.cs – Entry point & demo
+- Beginners learning Design Patterns
+- C# / .NET Developers
+- Interview preparation
+- Clean Architecture learners
+- Developers revising GoF patterns
 
-Pattern-specific classes
+---
 
-Clear naming aligned with pattern roles
+## References
 
-Console output to explain flow
+- Design Patterns – Gang of Four
+- Microsoft .NET Documentation
+- Real-world enterprise application practices
 
-🎯 Who Is This Repository For?
+---
 
-✔ Beginners learning Design Patterns
-✔ C# / .NET Developers
-✔ Interview Preparation
-✔ Clean Architecture learners
-✔ Software Engineers revising GoF patterns
+## Author
 
-💡 Design Philosophy
-
-Simple & Practical examples
-
-No unnecessary complexity
-
-Console-based for clarity
-
-Focused on understanding, not frameworks
-
-📚 References
-
-Design Patterns – Gang of Four
-
-Microsoft .NET Documentation
-
-Real-world enterprise application patterns
-
-🧑‍💻 Author
-
-Deepjyoty Roy
+Deepjyoty Roy  
 C# | .NET | Design Patterns | Software Engineering
 
-⭐ Support
+---
 
-If you find this repository helpful:
-
-⭐ Star the repo
-
-🍴 Fork it
-
-📢 Share with others
-
-📄 License
+## License
 
 This project is licensed under the MIT License.
-You are free to use, modify, and distribute it.
+You are free to use, modify, and distribute this repository.
