@@ -15,17 +15,42 @@ Each design pattern is implemented as an independent console project.
 ## Solution Structure
 
 The solution follows the Gang of Four (GoF) classification and is divided into three main categories:
-
+```text
 Design_Patterns_Repo
 │
 ├── Behavioral_Design_Pattern
+│   ├── ChainOfResponsibility_DesignPattern
+│   ├── Command_DesignPattern
+│   ├── Iterator_DesignPattern
+│   ├── Mediator_DesignPattern
+│   ├── Memento_DesignPattern
+│   ├── Observer_DesignPattern
+│   ├── State_DesignPattern
+│   ├── Strategy_DesignPattern
+│   ├── Template_DesignPattern
+│   └── Visitor_DesignPattern
+│
 ├── Creational_Design_Pattern
+│   ├── AbstractFactory_DesignPattern
+│   ├── Builder_DesignPattern
+│   ├── Factory_DesignPattern
+│   ├── Prototype_DesignPattern
+│   └── Singleton_DesignPattern
+│
 ├── Structural_Design_Pattern
+│   ├── Adapter_DesignPattern
+│   ├── Bridge_DesignPattern
+│   ├── Composite_DesignPattern
+│   ├── Decorator_DesignPattern
+│   ├── Facade_DesignPattern
+│   ├── Flyweight_DesignPattern
+│   └── Proxy_DesignPattern
 │
 ├── Design_Patterns_Repo.sln
 ├── README.md
 ├── LICENSE
 └── instruction.txt
+```
 
 ---
 
